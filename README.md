@@ -25,3 +25,14 @@ Para executar imagem criada com --interactive e --tty, mantendo a entrada do ter
 `docker run -it 'image-name' /bin/bash -c "echo 'Hello, Docker!'"`  
 `docker run -id 'image-name'`  
 
+## estudar gitlab-ci
+
+# https://rocker-project.org/images/
+# image: rocker/rstudio:4.2.3
+# https://docs.gitlab.com/ee/ci/variables/predefined_variables.html
+# https://heds.nz/posts/gitlab-cicd-pipeline-r-package/
+# # https://www.youtube.com/watch?v=7I6tHw68DMQ    
+# https://docs.gitlab.com/ee/ci/variables/
+# https://stackoverflow.com/questions/78893751/setting-up-gitlab-ci-cd-for-r-packages
+# https://persado.github.io/2019/10/23/R-gitlab-pipelines.html
+
