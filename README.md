@@ -22,5 +22,6 @@ Para executar imagem criada com --detach, permitindo a execução do container e
 Para executar imagem criada com --interactive e --tty, mantendo a entrada do terminal aberta durante a execução do contêiner:  
 `docker run --interactive (or -i) --tty (or -t) --name 'container-name' 'image-name'`  
 `docker run -it 'image-name' /bin/bash`  
-`docker run -it 'image-name' /bin/bash -c "echo 'Hello, Docker!'"`
+`docker run -it 'image-name' /bin/bash -c "echo 'Hello, Docker!'"`  
+`docker run -id 'image-name'`  
 
