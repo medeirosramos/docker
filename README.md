@@ -8,6 +8,11 @@ Docker and Kubernetes
 FROM ubuntu
 RUN echo "hello there"
 ```
+Removendo todas as imagens Docker do cache:
+`docker image prune --all`
+
+Remoção de todas as imagens, incluindo as em uso (drástico):
+`docker rmi $(docker images -q)`
 
 Para criar imagem do Dockerfile:
 `docker build --tag 'image-name' .`
